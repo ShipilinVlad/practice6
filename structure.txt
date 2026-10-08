@@ -1,0 +1,49 @@
+Практическая работа №6 — структура проекта
+
+practice6/
+├── pom.xml
+├── README.md
+├── TESTING.md
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/example/productapp/
+        │       ├── config/
+        │       │   ├── AppConfig.java
+        │       │   ├── SecurityConfig.java
+        │       │   ├── SecurityInitializer.java
+        │       │   ├── WebAppInitializer.java
+        │       │   └── WebConfig.java
+        │       ├── controller/
+        │       │   ├── AuthController.java
+        │       │   ├── ProductController.java
+        │       │   └── SimpleController.java
+        │       ├── dao/
+        │       │   ├── JdbcProductDao.java
+        │       │   ├── JdbcUserDao.java
+        │       │   ├── ProductDao.java
+        │       │   └── UserDao.java
+        │       ├── model/
+        │       │   ├── Product.java
+        │       │   ├── Role.java
+        │       │   └── User.java
+        │       └── service/
+        │           ├── ProductService.java
+        │           └── UserService.java
+        ├── resources/
+        │   ├── application.properties
+        │   └── db_init.sql
+        └── webapp/
+            ├── resources/css/style.css
+            └── WEB-INF/views/
+                ├── access-denied.jsp
+                ├── add.jsp
+                ├── delete.jsp
+                ├── edit.jsp
+                ├── index.jsp
+                ├── list.jsp
+                ├── login.jsp
+                ├── register.jsp
+                ├── search-name.jsp
+                ├── search-price.jsp
+                └── search-results.jsp

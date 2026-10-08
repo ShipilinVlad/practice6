@@ -1,0 +1,17 @@
+com\example\productapp\config\SecurityConfig.class
+com\example\productapp\config\WebConfig.class
+com\example\productapp\model\Role.class
+com\example\productapp\dao\JdbcUserDao.class
+com\example\productapp\dao\UserDao.class
+com\example\productapp\config\AppConfig.class
+com\example\productapp\config\SecurityInitializer.class
+com\example\productapp\controller\SimpleController.class
+com\example\productapp\service\UserService.class
+com\example\productapp\model\Product.class
+com\example\productapp\model\User.class
+com\example\productapp\controller\AuthController.class
+com\example\productapp\dao\JdbcProductDao.class
+com\example\productapp\dao\ProductDao.class
+com\example\productapp\service\ProductService.class
+com\example\productapp\config\WebAppInitializer.class
+com\example\productapp\controller\ProductController.class
